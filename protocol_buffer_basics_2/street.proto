@@ -1,0 +1,8 @@
+syntax="proto3";
+
+package address;
+
+message Street = {
+    string StreetName = 1;
+    string City = 2;
+}

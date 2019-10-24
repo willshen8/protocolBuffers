@@ -1,0 +1,11 @@
+syntax="proto3";
+import "building.proto";
+import "street.proto";
+
+package address;
+
+message City = {
+    string Name = 1;
+    int32 ZipCode = 2;
+    string CountryName = 3;
+}

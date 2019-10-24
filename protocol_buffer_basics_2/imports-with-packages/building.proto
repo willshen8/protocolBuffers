@@ -1,0 +1,11 @@
+syntax="proto3";
+
+package building;
+
+import "protocol_buffer_basics_2/imports-with-packages/street.proto";
+
+message Building = {
+    string Name = 1;
+    string Number = 2;
+    street.Street Street = 3;
+}

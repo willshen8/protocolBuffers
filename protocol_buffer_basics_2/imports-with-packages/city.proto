@@ -1,0 +1,13 @@
+syntax="proto3";
+import "building.proto";
+import "street.proto";
+
+package city;
+
+import "protocol_buffer_basics_2/imports-with-packages/city.proto";
+
+message City = {
+    string Name = 1;
+    int32 ZipCode = 2;
+    string CountryName = 3;
+}
