@@ -1,17 +1,17 @@
 syntax="proto3";
 
-message City = {
+message City {
     string Name = 1;
     int32 ZipCode = 2;
     string CountryName = 3;
 }
 
-message Street = {
+message Street {
     string StreetName = 1;
     string City = 2;
 }
 
-message Building = {
+message Building {
     string Name = 1;
     string Number = 2;
     string Street = 3;

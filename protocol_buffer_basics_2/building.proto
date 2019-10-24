@@ -2,7 +2,7 @@ syntax="proto3";
 
 package address;
 
-message Building = {
+message Building {
     string Name = 1;
     string Number = 2;
     string Street = 3;
