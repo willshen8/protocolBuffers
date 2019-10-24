@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-message Person = {
+message Person {
     string FirstName = 1;
     repeated string MiddleName = 2;
     string LastName = 3;

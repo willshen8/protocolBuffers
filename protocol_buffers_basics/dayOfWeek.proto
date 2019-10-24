@@ -1,10 +1,10 @@
 syntax = "proto3";
 
-message DayOfWeek = {
+message DayOfWeek {
     Day dayOfWeek = 1;
 }
 
-enum Day = {
+enum Day {
     UNDEFINED = 0;
     MONDAY = 1;
     TUESDAY  = 2;

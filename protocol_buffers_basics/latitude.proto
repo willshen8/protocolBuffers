@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-message Position = {
+message Position {
     float latitude = 1;
     float longtitude =2; 
 }

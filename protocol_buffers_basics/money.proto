@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-message Money = {
+message Money {
     string currency = 1;
     int32 integral = 2;
     int32 decimal = 3;
